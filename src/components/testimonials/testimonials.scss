@@ -1,0 +1,86 @@
+@import "../../app.scss";
+
+.testimonial__container {
+    width: 750px;
+    bottom: 70px;
+
+    @include tablet {
+        width: initial;
+    }
+}
+
+.section__title {
+    font-size: 4.5rem;
+    color: orange;
+
+    @include mobile {
+        margin-top: 2rem;
+        font-size: 2.5rem;
+    }
+}
+
+.section__subtitle {
+    font-size: 2.5rem;
+    color: #fff;
+
+    @include mobile {
+        font-size: 1.5rem;
+    }
+}
+
+.testimonial__card {
+    background-color: transparent;
+    // border: 1px solid #fff;
+    padding: 1.5rem 2rem;
+    border-radius: 1.5rem;
+    margin-bottom: var(--mb-3);
+
+    @include tablet {
+        padding: 1.25rem 1.25rem;
+    }
+}
+
+.testimonial__img {
+    width: 60px;
+    border-radius: 3rem;
+    margin-bottom: var(--mb-1);
+
+    @include mobile {
+        width: 5rem;
+    }
+}
+
+.testimonial__name {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-0-25);
+
+    @include mobile {
+        font-size: 2rem;
+    }
+}
+
+.testimonial__job {
+    margin-bottom: 1rem;
+
+    @include mobile {
+        font-size: 1.3rem;
+    }
+}
+
+.testimonial__description {
+    font-size: var(--small-font-size);
+
+    @include mobile {
+        font-size: 1.1rem;
+    }
+}
+
+/* Swiper Class */
+.swiper-pagination-bullet {
+    background-color: #fff !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: orange !important;
+}
