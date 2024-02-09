@@ -81,11 +81,12 @@
         right: 140px;
 
         @include mobile {
-            height: 50%;
-            right: 95px;
-            width: 60%;
-            top: unset;
-            bottom: 0;
+            height: 54%;
+            right: 92px;
+            width: 62%;
+            // top: unset;
+            top: 45%;
+            // bottom: 0;
         }
 
         img {
@@ -103,5 +104,9 @@
         color: #ffffff09;
         width: 50%;
         font-weight: bold;
+
+        @include mobile {
+            bottom: 50px;
+        }
     }
 }
